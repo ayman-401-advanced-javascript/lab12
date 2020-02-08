@@ -1,7 +1,7 @@
 # lab12
 # LAB - Class 12
 
-### Author: Qusai-Alhanaktah
+### Author: Ayman Alkhawaldeh
 
 ### Links and Resources
 
