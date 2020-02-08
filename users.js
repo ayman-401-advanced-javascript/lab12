@@ -22,19 +22,19 @@ users.save = async function (record) {
   }
 
   return Promise.reject();
-}
+};
 
 // this is on sign in
 users.authenticateBasic = async function(user,pass) {
   let valid = await bcrypt.compare(pass, db[user].password);
   return valid ? db[user] : Promise.reject();
-}
+};
 
 // this is sign up and sign in
 users.generateToken = function(user) {
   let token = jwt.sign({ username: user.username}, SECRET);
   return token;
-}
+};
 
 // this gets us our db
 users.list = () => db;

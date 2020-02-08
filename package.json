@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'",
+    "start": "node index.js"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ayman-401-advanced-javascript/lab12.git"
