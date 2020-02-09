@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --verbose --coverage",
     "lint": "eslint '**/*.js'",
-    "start": "node index.js"  },
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ayman-401-advanced-javascript/lab12.git"
@@ -30,6 +31,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongo": "^0.1.0",
     "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
     "superagent": "^5.2.1"
   }
 }
